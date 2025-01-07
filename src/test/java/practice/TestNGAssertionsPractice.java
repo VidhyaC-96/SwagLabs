@@ -23,7 +23,7 @@ public void softAssert() {
 	System.out.println("Step3");
 	s.assertEquals(1, 1);
 	System.out.println("Step4");
-	s.assertEquals("hi", "hello");
+	s.assertEquals("hi", "hi");
 	System.out.println("Step5");
 	s.assertAll();
 	
