@@ -13,4 +13,9 @@ public class RemoveProductTest extends BaseClass  {
 	//Assert.fail();
 	System.out.println("Removed");
 	}
+
+@Test
+public void RemoveProduct(){
+	System.out.println("Success");
+}
 }
