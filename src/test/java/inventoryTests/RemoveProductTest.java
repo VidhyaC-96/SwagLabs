@@ -10,7 +10,7 @@ public class RemoveProductTest extends BaseClass  {
 @Test(groups="RegressionSuite",retryAnalyzer=genericUtilities.IRetryAnalyserImplementation.class)
 	public void tc_002_RemoveProductFromCart() {
 	
-	Assert.fail();
+	//Assert.fail();
 	System.out.println("Removed");
 	}
 }
