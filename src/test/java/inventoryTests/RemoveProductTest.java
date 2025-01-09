@@ -15,7 +15,7 @@ public class RemoveProductTest extends BaseClass  {
 	}
 
 @Test
-public void RemoveProduct(){
+public void RemoveProduct(){   /* to check maven command line particular method*/
 	System.out.println("Success");
 }
 }
