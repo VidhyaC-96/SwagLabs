@@ -49,7 +49,7 @@ public void bcConfig(/*String parameterValue*/) throws IOException {
 //	}else if(parameterValue.equalsIgnoreCase("firefox")) {
 //		driver=new FirefoxDriver();
 //	}
-	driver= new EdgeDriver();  //to check with single browser until the product is stable
+	driver= new FirefoxDriver();  //to check with single browser until the product is stable
 	sUtil.maximizewindow(driver);
 	sUtil.implicitlywait(driver);
 	driver.get(URL);
