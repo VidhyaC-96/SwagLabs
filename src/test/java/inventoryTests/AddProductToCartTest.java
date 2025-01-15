@@ -39,6 +39,8 @@ import genericUtilities.ExcelUtility;
 			String PRODUCTNAME = eutil.readFromExcelFile("Inventory", 1, 2);
 	//Step 1:Launch the browser
 			SeleniumUtility sutil=new SeleniumUtility();
+			//commet
+			System.out.println("YES");
 	//Step 4:Click on the product
 			InventoryPage ip=new InventoryPage(driver);
 			String ProductToBeAdded = ip.clickOnProduct(driver, PRODUCTNAME);
