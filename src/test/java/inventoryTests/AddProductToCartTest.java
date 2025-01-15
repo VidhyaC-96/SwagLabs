@@ -40,7 +40,7 @@ import genericUtilities.ExcelUtility;
 	//Step 1:Launch the browser
 			SeleniumUtility sutil=new SeleniumUtility();
 			//commet
-			System.out.println("YES");
+			System.out.println("YES ommit");
 	//Step 4:Click on the product
 			InventoryPage ip=new InventoryPage(driver);
 			String ProductToBeAdded = ip.clickOnProduct(driver, PRODUCTNAME);
